@@ -22,3 +22,15 @@ body{
     text-align: center;
     margin-top: 3em;
 }
+.service{
+    background-image: url("/images/assets/backgrounds/s_image.jpg");
+    background-size: cover;
+    color: white;
+    text-align: center;
+    margin-top: 3em;
+    font-size: 1em;
+    height: 30vh;
+}
+.we{
+    margin-top: 10px;
+}
