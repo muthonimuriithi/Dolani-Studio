@@ -33,4 +33,15 @@ body{
 }
 .we{
     margin-top: 10px;
+}.contacts h4{
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+.contacts{
+    background-image: url("/images/assets/backgrounds/c_image.jpg");
+    background-size: cover;
+}
+#message{
+    background-color: transparent;
+    margin-top: 3em;
 }
