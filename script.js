@@ -11,8 +11,8 @@ $(document).ready(function(){
       })
     
       $("#productManagement").click(function(){
-        $("#product-management-showing").toggle();
-        $(".hide-product-management").toggle();
+        $("#pm-showing").toggle();
+        $(".h-pmanagement").toggle();
       })
       $(".Hover").hover(function(){
         $(this).animate({opacity:'1'});
