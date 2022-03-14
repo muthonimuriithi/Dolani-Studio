@@ -1,7 +1,8 @@
 
 body{
     background-color: whitesmoke;
-}.topy{
+}
+.topy{
     background-image: url("/images/assets/backgrounds/h_img.jpg");
     color: white;
     background-size: cover;
@@ -53,3 +54,31 @@ footer{
     margin-top: 2em;
     margin-left: 5em;
 }
+.row{
+    margin-left: 7em;
+}
+#name{
+    background-color: transparent;
+    color: white;
+}
+#email{
+    background-color: transparent;
+    color: white;
+}
+.con{
+    text-align: center;
+    margin-top: 2em;
+    color: white;
+}
+.Hover {
+    opacity:0;
+    background-color: rgba(255, 255, 255, 0.623);
+    position: absolute;
+    top:25%;
+    bottom:25%;
+    left:25%;
+    right:25%; 
+  }
+  .hide{
+      display: none;
+  }
