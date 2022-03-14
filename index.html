@@ -24,8 +24,8 @@
             <p class="at">AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
             <br><br><br><br>
 
-            <img src="./images/assets/mouse_click.png" alt="mouse_click" class="mouse">
-            
+            <img src="./images/assets/mouse_click.png">
+
         </div>
         <div class="info">
             <h4>About Us</h4>
@@ -45,28 +45,38 @@
         </div>
 
         <div class="sicons mt-5">
-           <h4 class="what">WHAT WE DO</h4>
+            <h4 class="what">WHAT WE DO</h4>
             <div class="row">
 
-                <div class="col-md-4">
-                    <img src="/images/assets/services_icons/design_icon.png">
-                    <p>DESIGN</p>
+                <div class="col-md-4" id="design">
+                    <div class="h-image">
+                        <img src="/images/assets/services_icons/design_icon.png">
+                        <p>DESIGN</p>
+                    </div>
+                    
 
-                    <div class="design">
-                    <h4 style="text-align: center;">Design</h4>
-                    <p>When you work with us our approach unifies design,a full range of services including brand strategy, interaction and visual design and user experience.ur designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
-                </div></p>
+                    
+                        <!-- <h4 style="text-align: center;">Design</h4> -->
+                        <p class="hide" id="d-showing">
+                            When you work with us our approach unifies design,a full
+                            range of services including brand
+                            strategy, interaction and visual design and user experience.ur designers create and
+                            implement visual design and workflows, solicit user feedback and work with you to make sure
+                            what gets built is what is needed.</p>
+                    
                 </div>
 
-                
+
                 <div class="col-md-4">
                     <img src="/images/assets/services_icons/dev_icon.png" id="Development-image">
                     <p>DEVELOPMENT</p>
                     <div class="dev">
                         <h4 style="text-align: center;">Development</h4>
-                        <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.,br.They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+                        <p>All engineers are fluent in the latest enterprise, mobile and web development
+                            technologies.,br.They collaborate with your team to write, and improve code on a daily
+                            basis, using proven practices such as test-driven development and pair programming.</p>
                     </div>
-            
+
 
                 </div>
                 <div class="col-md-4">
@@ -74,53 +84,57 @@
                     <p>PRODUCT-MANAGEMENT</p>
                     <div class="prd">
                         <h4 style="text-align: center;">Product-management</h4>
-                        <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
+                        <p>Planning and development is iterative. Because we are constantly coding and testing, the
+                            products we build are always ready to go live.
                             This iterative process allows for changes as business requirements evolve.</p>
-                        
 
+
+                    </div>
                 </div>
             </div>
-        </div>
         </div>
 
         <div class="portfolio mt-7">
             <h4 style="text-align:center">PORTFOLIO</h4>
             <div class="row">
-                <div class="col-md-3 d-flex-column justify-content-around g-5" id="pic1">
+                <div class="col-md-3" id="pic1">
                     <img src="/images/assets/portfolio/work4.jpg">
-                    <br>
+                    <div class="Hover">
+                        <p id=Hover_designKenya>Design Kenya</p>
+                    </div>
+
                 </div>
-                <div class="col-md-3 d-flex-column justify-content-around g-5" id="pic2">
+                <div class="col-md-3" id="pic2">
                     <img src="/images/assets/portfolio/work3.jpg">
                 </div>
-                <div class="col-md-3 d-flex-column justify-content-around g-5" id="pic3">
+                <div class="col-md-3" id="pic3">
                     <img src="/images/assets/portfolio/work2.jpg">
                 </div>
-                <div class="col-md-3 d-flex-column justify-content-around g-5" id="pic4">
-                    <img src="/images/assets/portfolio/work1.jpg" alt="">
+                <div class="col-md-3" id="pic4">
+                    <img src="/images/assets/portfolio/work1.jpg">
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3 d-flex-column justify-content-around g-5" id="pic5">
+                <div class="col-md-3 d-flex-column justify-content-around" id="pic5">
                     <img src="/images/assets/portfolio/work5.jpg">
                     <br>
                 </div>
-                <div class="col-md-3 d-flex-column justify-content-around g-5" id="pic6">
+                <div class="col-md-3 d-flex-column justify-content-around" id="pic6">
                     <img src="/images/assets/portfolio/work6.jpg">
                 </div>
-                <div class="col-md-3 d-flex-column justify-content-around g-5" id="pic7">
+                <div class="col-md-3 d-flex-column justify-content-around" id="pic7">
                     <img src="/images/assets/portfolio/work7.jpg">
                 </div>
-                <div class="col-md-3 d-flex-column justify-content-around g-5" id="pic8">
-                    <img src="/images/assets/portfolio/work8.jpg" alt="">
+                <div class="col-md-3 d-flex-column justify-content-around" id="pic8">
+                    <img src="/images/assets/portfolio/work8.jpg">
                 </div>
             </div>
 
         </div>
 
         <div class="contacts">
-            <h4>CONTACT US</h4>
-            <form action="" >
+            <h4 class="con">CONTACT US</h4>
+            <form action="">
                 <div class="row justify-content-around:" id="inputs">
                     <div class="col-6">
                         <div class="form-group">
@@ -140,9 +154,10 @@
 
                     </div>
                     <div class="area">
-                    <textarea name="text" id="message" cols="50" rows="10" placeholder="Write message here.." required></textarea>
-                </div>
-                   
+                        <textarea name="text" id="message" cols="50" rows="10" placeholder="Write message here.."
+                            required></textarea>
+                    </div>
+
 
 
                 </div>
@@ -163,10 +178,10 @@
             <img src="/images/assets/social_icons/flickr.png" alt="">
         </footer>
         <p style="text-align: center;"><em>DELANI STUDIO<br>2019</em></p>
-     </div>
+    </div>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
