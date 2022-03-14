@@ -6,8 +6,8 @@ $(document).ready(function(){
       });
     
       $("#development").click(function(){
-        $("#development-showing").toggle();
-        $(".hide-development-image").toggle();
+        $("#dp-showing").toggle();
+        $(".hd-image").toggle();
       })
     
       $("#productManagement").click(function(){
